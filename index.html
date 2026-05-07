@@ -48,13 +48,16 @@
         }
 
         .profile-photo {
-            width: 180px;
-            height: 180px;
-            border-radius: 50%;
-            border: 6px solid rgba(255,255,255,0.2);
-            object-fit: cover;
-            transition: transform 0.4s ease;
-        }
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 6px solid rgba(255,255,255,0.2);
+    object-fit: cover;
+    /* Tambahkan baris di bawah ini */
+    object-position: center 20%; 
+    transition: transform 0.4s ease;
+}
+
 
         .profile-photo:hover {
             transform: scale(1.05);
